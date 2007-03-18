@@ -30,11 +30,11 @@ Version history:
 
 == Frequently Asked Questions ==
 
-= Do I need to wrap this my code in &lt code &gt block? =
-No.  Instead, wrap your code in a &lt pre &gt block and then use [code lang="lang"][/code] to wrap your code.
+= Do I need to wrap this my code in &#60;code&#62; block? =
+No.  Instead, wrap your code in a &#60;pre&#62; block and then use [code lang="lang"][/code] to wrap your code.
 
 == Usage ==
-The original author recommended always wrapping your code in a pre> tag; however, I’ve found that you generally don’t need to. To use it, simply surround your code with as such and specify your language type:
+The original author recommended always wrapping your code in a &#60;pre&#62; tag; however, I've found that you generally don't need to. To use it, simply surround your code with as such and specify your language type:
 
 [code lang="c"]
 int main(int argc, char** argv) { return 0; }
@@ -43,6 +43,8 @@ int main(int argc, char** argv) { return 0; }
 And the result is:
 
 int main(int argc, char** argv) { return 0; }
+
+== Screenshots ==
 
 == Supported Languages ==
 The following is a list of currently supported languages:
