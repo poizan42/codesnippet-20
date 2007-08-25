@@ -63,14 +63,14 @@ unset($CodeSnippet);
 /*
  * Fake class pear for pear highliter
  */
-if (!class_exists("Pear")) {
+/* if (!class_exists("Pear")) {
 	class Pear 
 	{
 		function raiseError($text){
 		
 		}
 	}
-}
+} */
 /**
  * Code Snippet plugin class
  */
