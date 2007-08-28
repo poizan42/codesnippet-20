@@ -1,3 +1,4 @@
+.codesnip { text-align:left; direction: ltr; }
 .codesnip .de1, .php-brief .de2, .php .de1, .php .de2 {font-weight:normal; background:transparent;color:#000; }
 .codesnip .kw1, .php .kw1 {color: #a1a100;}
 .codesnip .kw2, .php .kw2 {color: #000; font-weight: bold;}
