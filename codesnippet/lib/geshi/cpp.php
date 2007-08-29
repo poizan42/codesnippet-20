@@ -7,10 +7,8 @@
  *  - M. Uli Kusterer (witness.of.teachtext@gmx.net)
  *  - Jack Lloyd (lloyd@randombit.net)
  * Copyright: (c) 2004 Dennis Bayer, Nigel McNie (http://qbnz.com/highlighter)
- * Release Version: 1.0.7.2
- * CVS Revision Version: $Revision: 1.4 $
+ * Release Version: 1.0.7.20
  * Date Started: 2004/09/27
- * Last Modified: $Date: 2005/09/03 12:36:42 $
  *
  * C++ language file for GeSHi.
  *
@@ -75,7 +73,7 @@ $language_data = array (
 			'EXIT_FAILURE', 'EXIT_SUCCESS', 'RAND_MAX', 'CLOCKS_PER_SEC',
 			'virtual', 'public', 'private', 'protected', 'template', 'using', 'namespace',
 			'try', 'catch', 'inline', 'dynamic_cast', 'const_cast', 'reinterpret_cast',
-			'static_cast', 'explicit', 'friend', 'wchar_t', 'typename', 'typeid'
+			'static_cast', 'explicit', 'friend', 'wchar_t', 'typename', 'typeid', 'class'
 			),
 		3 => array(
 			'cin', 'cerr', 'clog', 'cout', 'delete', 'new', 'this',
@@ -166,7 +164,8 @@ $language_data = array (
 	'SCRIPT_DELIMITERS' => array(
 		),
 	'HIGHLIGHT_STRICT_BLOCK' => array(
-		)
+        ),
+    'TAB_WIDTH' => 4
 );
 
 ?>

@@ -2,12 +2,10 @@
 /*************************************************************************************
  * qbasic.php
  * ----------
- * Author: Nigel McNie (oracle.shinoda@gmail.com)
+ * Author: Nigel McNie (nigel@geshi.org)
  * Copyright: (c) 2004 Nigel McNie (http://qbnz.com/highlighter/)
- * Release Version: 1.0.7.2
- * CVS Revision Version: $Revision: 1.4 $
+ * Release Version: 1.0.7.20
  * Date Started: 2004/06/20
- * Last Modified: $Date: 2005/09/03 12:36:42 $
  *
  * QBasic/QuickBASIC language file for GeSHi.
  *
@@ -141,7 +139,8 @@ $language_data = array (
 	'SCRIPT_DELIMITERS' => array(
 		),
 	'HIGHLIGHT_STRICT_BLOCK' => array(
-		)
+        ),
+    'TAB_WIDTH' => 8
 );
 
 ?>

@@ -4,15 +4,16 @@
  * --------
  * Author: deguix (cevo_deguix@yahoo.com.br)
  * Copyright: (c) 2005 deguix
- * Release Version: 1.0.7.2
- * CVS Revision Version: $Revision: 1.2 $
+ * Release Version: 1.0.7.20
  * Date Started: 2005/03/27
- * Last Modified: $Date: 2005/09/03 12:36:42 $
  *
  * INI language file for GeSHi.
  *
  * CHANGES
  * -------
+ * 2005/12/28 (1.0.1)
+ *   -  Removed unnecessary keyword style index
+ *   -  Added support for " strings
  * 2005/04/05 (1.0.0)
  *   -  First Release
  *
@@ -40,11 +41,11 @@
  ************************************************************************************/
 
 $language_data = array (
-	'LANG_NAME' => 'ini',
+	'LANG_NAME' => 'INI',
 	'COMMENT_SINGLE' => array(0 => ';'),
 	'COMMENT_MULTI' => array(),
 	'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
-	'QUOTEMARKS' => array(),
+	'QUOTEMARKS' => array('"'),
 	'ESCAPE_CHAR' => '',
 	'KEYWORDS' => array(
 		),
@@ -56,7 +57,6 @@ $language_data = array (
 		),
 	'STYLES' => array(
 		'KEYWORDS' => array(
-		    0 => ''
 			),
 		'COMMENTS' => array(
 			0 => 'color: #666666; font-style: italic;'
@@ -68,7 +68,7 @@ $language_data = array (
 		    0 => ''
 			),
 		'STRINGS' => array(
-		    0 => ''
+		    0 => 'color: #933;'
 			),
 		'NUMBERS' => array(
 		    0 => ''

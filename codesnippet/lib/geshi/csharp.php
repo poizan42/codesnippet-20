@@ -4,15 +4,15 @@
  * ----------
  * Author: Alan Juden (alan@judenware.org)
  * Copyright: (c) 2004 Alan Juden, Nigel McNie (http://qbnz.com/highlighter/)
- * Release Version: 1.0.7.2
- * CVS Revision Version: $Revision: 1.3 $
+ * Release Version: 1.0.7.20
  * Date Started: 2004/06/04
- * Last Modified: $Date: 2005/09/03 12:36:41 $
  *
  * C# language file for GeSHi.
  *
  * CHANGES
  * -------
+ * 2005/01/05 (1.0.1)
+ *  -  Used hardquote support for @"..." strings (Cliff Stanford)
  * 2004/11/27 (1.0.0)
  *  -  Initial release
  *
@@ -40,11 +40,13 @@
  ************************************************************************************/
 
  $language_data = array (
-	'LANG_NAME' => 'CSharp',
+	'LANG_NAME' => 'C#',
 	'COMMENT_SINGLE' => array(1 => '//', 2 => '#'),
 	'COMMENT_MULTI' => array('/*' => '*/'),
 	'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
 	'QUOTEMARKS' => array("'", '"'),
+    'HARDQUOTE' => array('@"', '"'),
+    'HARDESCAPE' => array('""'),
 	'ESCAPE_CHAR' => '\\',
 	'KEYWORDS' => array(
 		1 => array(
@@ -223,7 +225,8 @@
 	'SCRIPT_DELIMITERS' => array(
 		),
 	'HIGHLIGHT_STRICT_BLOCK' => array(
-		)
+        ),
+    'TAB_WIDTH' => 4
 );
 
 ?>

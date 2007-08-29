@@ -4,10 +4,8 @@
  * ---------
  * Author: M. Uli Kusterer (witness.of.teachtext@gmx.net)
  * Copyright: (c) 2004 M. Uli Kusterer, Nigel McNie (http://qbnz.com/highlighter/)
- * Release Version: 1.0.7.2
- * CVS Revision Version: $Revision: 1.3 $
+ * Release Version: 1.0.7.20
  * Date Started: 2004/06/04
- * Last Modified: $Date: 2005/09/03 12:36:41 $
  *
  * C for Macs language file for GeSHi.
  *
@@ -40,7 +38,7 @@
  ************************************************************************************/
 
 $language_data = array (
-	'LANG_NAME' => 'C',
+	'LANG_NAME' => 'C (Mac)',
 	'COMMENT_SINGLE' => array(1 => '//', 2 => '#'),
 	'COMMENT_MULTI' => array('/*' => '*/'),
 	'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
@@ -170,7 +168,8 @@ $language_data = array (
 	'SCRIPT_DELIMITERS' => array(
 		),
 	'HIGHLIGHT_STRICT_BLOCK' => array(
-		)
+        ),
+    'TAB_WIDTH' => 4
 );
 
 ?>

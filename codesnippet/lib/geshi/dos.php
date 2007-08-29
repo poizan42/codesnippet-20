@@ -4,10 +4,8 @@
  * -------
  * Author: Alessandro Staltari (staltari@geocities.com)
  * Copyright: (c) 2005 Alessandro Staltari (http://www.geocities.com/SiliconValley/Vista/8155/)
- * Release Version: 1.0.7.2
- * CVS Revision Version: $Revision: 1.2 $
+ * Release Version: 1.0.7.20
  * Date Started: 2005/07/05
- * Last Modified: $Date: 2005/09/03 12:36:41 $
  *
  * DOS language file for GeSHi.
  *
@@ -64,34 +62,34 @@ $language_data = array (
 	'LANG_NAME' => 'DOS',
 	'COMMENT_SINGLE' => array(1 =>'REM', 2 => '@REM'),
 	'COMMENT_MULTI' => array(),
-	'CASE_KEYWORDS' => GESHI_CAP_NO_CHANGE,
+	'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
 	'QUOTEMARKS' => array(),
 	'ESCAPE_CHAR' => '',
 	'KEYWORDS' => array(
 	    /* Flow control keywords */
 		1 => array(
-			'IF', 'ELSE', 'GOTO',
-			'FOR', 'IN', 'DO',
-			'CALL', 'EXIT'
+			'if', 'else', 'goto',
+			'for', 'in', 'do',
+			'call', 'exit'
 			),
 	    /* IF statement keywords */
 		2 => array(
-			'NOT', 'EXIST', 'ERRORLEVEL',
-			'DEFINED',
-			'EQU', 'NEQ', 'LSS', 'LEQ', 'GTR', 'GEQ'
+			'not', 'exist', 'errorlevel',
+			'defined',
+			'equ', 'neq', 'lss', 'leq', 'gtr', 'geq'
 			),
 	    /* Internal commands */
 		3 => array(
-			'SHIFT',
-			'CD', 'DIR', 'ECHO',
-			'SETLOCAL', 'ENDLOCAL', 'SET',
-			'PAUSE'
+			'shift',
+			'cd', 'dir', 'echo',
+			'setlocal', 'endlocal', 'set',
+			'pause'
 			),
 	    /* Special files */
 
 		4 => array(
-			'PRN', 'NUL', 'LPT3', 'LPT2', 'LPT1', 'CON',
-			'COM4', 'COM3', 'COM2', 'COM1', 'AUX'
+			'prn', 'nul', 'lpt3', 'lpt2', 'lpt1', 'con',
+			'com4', 'com3', 'com2', 'com1', 'aux'
 			)
 		),
 	'SYMBOLS' => array(
@@ -140,6 +138,12 @@ $language_data = array (
 	'OOLANG' => false,
 	'OBJECT_SPLITTERS' => array(
 		),
+    'URLS' => array(
+         1 => 'http://www.ss64.com/nt/{FNAME}.html',
+         2 => 'http://www.ss64.com/nt/{FNAME}.html',
+         3 => 'http://www.ss64.com/nt/{FNAME}.html',
+         4 => 'http://www.ss64.com/nt/{FNAME}.html'
+         ),
 	'REGEXPS' => array(
 	/* Label */
 	    0 => array(
