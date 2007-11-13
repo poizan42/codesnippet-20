@@ -54,8 +54,7 @@ $language_data = array (
 	'COMMENT_SINGLE' => array(),
 	'COMMENT_MULTI' => array('<!--' => '-->'),
 	'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
-	/* 'QUOTEMARKS' => array("'", '"'),  causes quote issues */
-	'QUOTEMARKS' => array(),
+	'QUOTEMARKS' => array("'", '"'),
 	'ESCAPE_CHAR' => '',
 	'KEYWORDS' => array(
 		1 => array(
