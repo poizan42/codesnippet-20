@@ -46,7 +46,7 @@ add_action('wp_head',array(&$CodeSnippet, 'addCSS'), 1);
  */
 //add_action('admin_head',array(&$CodeSnippet, 'addCSS'), 1);
 add_action('admin_head',array(&$CodeSnippet, 'init'), 1);
-add_action('admin_menu',array(&$CodeSnippet, 'addCssStyle'), 1);
+add_action('admin_head',array(&$CodeSnippet, 'addCssStyle'), 1);
 add_action('admin_menu', array(&$CodeSnippet, 'addPluginOptionsPage'), 1);
 
 /*
