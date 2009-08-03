@@ -3,7 +3,7 @@
 Plugin Name: Code Snippet
 Plugin URI: http://blog.enargi.com/codesnippet/
 Description: Code highlighting plugin. Use plugin options (In menu Options>Code Highlighting) to configure code style.
-Version: 2.0
+Version: 2.1.5
 Author: Roman Roan	
 Author URI: http://blog.enargi.com/
 */
