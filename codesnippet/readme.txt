@@ -12,6 +12,7 @@ Code Snippet is WordPress plugin for displaying code with highlighting in blog p
 Code Snippet was created by Roman Roan and originally hosted at http://blog.enargi.com.  It is powered by the GeSHi engine and is quite possibly the best syntax highlighting engine for Wordpress.  A large number of languages are supported and it can be easily extended.  Since his blog is no longer functioning, I'm attempting to keep his wonderful contribution available so I've given it a home at http://blog.hackerforhire.org/code-snippet/.  If you find any bugs with it, let me know and I will do my best to resovle them.
 
 Version history:
+
  * 2.1.5 Updating tag in plugin causing incorrect version to display
  * 2.1.4 GeSHi engine 1.0.8.4, rendering bug-fix
  * 2.1.2 Update to work with plugin security in 2.8.1
@@ -27,7 +28,7 @@ Version history:
 1. Copy archive to wp-content/plugins directory
 2. Extract the zip file
 3. When extracted properly you should have following directory structure: /wp-content/plugins/codesnippet
-4. Since I’ve not tore through the code, the plugin will probably not work if extracted/copied in diffrenet directory.
+4. Since I have not torn through the code, the plugin will probably not work if extracted/copied in diffrenet directory.
 5. Enable the plugin in the Plugin interface
 
 == Frequently Asked Questions ==
@@ -55,56 +56,4 @@ int main(int argc, char** argv) { return 0; }
 == Screenshots ==
 
 == Supported Languages ==
-The following is a list of currently supported languages:
-
- * actionscript-french
- * actionscript
- * ada
- * apache
- * applescript
- * asm
- * asp
- * bash
- * caddcl
- * cadlisp
- * c_mac
- * c
- * cpp
- * csharp
- * css-gen
- * css
- * delphi
- * diff
- * div
- * dos
- * d
- * eiffel
- * freebasic
- * gml
- * html4strict
- * ini
- * inno
- * java
- * javascript
- * lisp
- * lua
- * matlab
- * mpasm
- * nsis
- * objc
- * oobas
- * oracle8
- * pascal
- * perl
- * php-brief
- * php
- * python
- * qbasic
- * sdlbasic
- * smarty
- * sql
- * vbnet
- * vb
- * vhdl
- * visualfoxpro
- * xml
+This tool uses the GeSHi library.  Any supported language there should work just fine with Code Snippet.  See http://qbnz.com/highlighter/ for details.
