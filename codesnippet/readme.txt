@@ -33,13 +33,13 @@ Version history:
 
 == Frequently Asked Questions ==
 
-= Do I need to wrap this my code in &#60;code&#62; block? =
-No.  Instead, wrap your code in a &#60;pre&#62; block and then use [code lang="lang"][/code] to wrap your code.
+=== Do I need to wrap this my code in &#60;code&#62; block? ===
+No.  Instead, wrap your code in a &#60;pre&#62; block and then use [code lang==="lang"][/code] to wrap your code.
 
-= How can I customize the code block layout? =
+=== How can I customize the code block layout? ===
 In the Wordpress Admin interface, under Options -> Code Highlighting, you can specify a custom CSS stlye to wrap your code blocks in.  While the preview button is nice, Firebug would be the tool I would recommend.
 
-= Can I use this with custom wordpress themes? = 
+=== Can I use this with custom wordpress themes? === 
 Yes; however, you might need to do a little bit of tweaking.  JR found that CodeSnippet automatically adds a link if you're theme is using wp_head; however, if it isn't, you'll need to add the link to the codesnippet/codesnippet.css stlye sheet to your header and you'll also have to define the 'codesnip-container' element.  The default value is:  border:1px solid #ccc; background:#eee; padding: 5px;margin:10px;
 
 == Usage ==
