@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Code Snippet
-Plugin URI: http://blog.enargi.com/codesnippet/
+Plugin URI: http://blog.hackerforhire.org/code-snippet/
 Description: Code highlighting plugin. Use plugin options (In menu Options>Code Highlighting) to configure code style.
-Version: 2.1.5
+Version: 2.1.7
 Author: Roman Roan	
-Author URI: http://blog.enargi.com/
+Author URI: http://blog.hackerforhire.org
 */
 /*  Copyright 2005  Roman Roan  (email : roman.roan@gmail.com)
 
