@@ -3,8 +3,8 @@ Contributors: Roman Roan, Wyatt Neal
 Donate Link: 
 Tags: code, markup, formatting
 Requires at least: 2.0
-Tested up to: 2.8.1
-Stable tag: 2.1.5
+Tested up to: 2.9.2
+Stable tag: 2.1.6
 
 Code Snippet is WordPress plugin for displaying code with highlighting in blog posts using the GeSHi engine.
 
@@ -12,6 +12,8 @@ Code Snippet is WordPress plugin for displaying code with highlighting in blog p
 Code Snippet was created by Roman Roan and originally hosted at http://blog.enargi.com.  It is powered by the GeSHi engine and is quite possibly the best syntax highlighting engine for Wordpress.  A large number of languages are supported and it can be easily extended.  Since his blog is no longer functioning, I'm attempting to keep his wonderful contribution available so I've given it a home at http://blog.hackerforhire.org/code-snippet/.  If you find any bugs with it, let me know and I will do my best to resovle them.
 
 == Changelog ==
+= 2.1.6 =
+* Updating readme.  Validated testing with 2.9.2
 = 2.1.5 =
 * Updating tag in plugin causing incorrect version to display
 = 2.1.4 =
