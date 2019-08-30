@@ -245,7 +245,8 @@ function init(){
             'tabsize' => 4,
         );
     }
-    $renderer =& new Text_Highlighter_Renderer_HTML($options);
+    $r = new Text_Highlighter_Renderer_HTML($options);
+    $renderer =& $r;
     $highlighter =& Text_Highlighter::factory($lang);
     $highlighter->setRenderer($renderer); 
     return '<div class="hl-main">'.$highlighter->highlight($content).'</div>';
@@ -257,10 +258,18 @@ function init(){
 	 */
     function highlightCode($content)
     {
-       $content = preg_replace('#\[code\](.*?)\[/code\]#sie', '$this->performHighlight(\'\\1\', false, $content);', $content);
-       $content = preg_replace('#\[code lang="(.*?)"\](.*?)\[/code\]#sie', '$this->performHighlight(\'\\2\', \'\\1\', $content);', $content);
-       $content = preg_replace('#\<code\>(.*?)\</code\>#sie', '$this->performHighlight(\'\\1\', false, $content);', $content);
-       $content = preg_replace('#\<code lang="(.*?)"\>(.*?)\</code\>#sie', '$this->performHighlight(\'\\2\', \'\\1\', $content);', $content);
+        $content = preg_replace_callback('#\[code\](.*?)\[/code\]#si', function ($matches) {
+            $this->performHighlight($matches[1], false, $content);
+        }, $content);
+        $content = preg_replace_callback('#\[code lang="(.*?)"\](.*?)\[/code\]#si', function ($matches) {
+            $this->performHighlight($matches[2], $matches[1], $content);
+        }, $content);
+        $content = preg_replace_callback('#\<code\>(.*?)\</code\>#si', function ($matches) {
+            $this->performHighlight($matches[1], false, $content);
+        }, $content);
+        $content = preg_replace_callback('#\<code lang="(.*?)"\>(.*?)\</code\>#si', function ($matches) {
+            $this->performHighlight($matches[2], $matches[1], $content);
+        }, $content);
 
         return $content;
     }
